@@ -1,0 +1,111 @@
+*{
+    padding:  0;
+    margin:  0;
+}
+#body{
+    width: 90%;
+    max-width: 760px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    border: 1px solid lightgray;
+}
+#header{
+    text-align: center;
+    height: 20%;
+    background-color: #efefef;
+    font-family: sans-serif;
+    padding: 40px 0 6px 0;
+}
+#header h2{
+    padding-bottom: 20px; 
+    color: #555555;
+}
+#header input{
+    padding: 5px 2px;
+    width: 200px;
+    border: solid 1px #777777;
+    border-radius: 2px;
+    margin: 10px 0 40px 0;
+}
+#notes{
+    text-align: center;
+    padding-top: 42px;
+}
+#notes ul li{
+    border-left: solid 4px #efefef;
+    border-bottom: solid 1px #cacaca;
+    padding-bottom: 4px;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+#notes ul li p{
+    font-size: 18px;
+    padding-left: 5px;
+    color: #777777;
+    font-family: sans-serif;
+    text-align: left;
+}
+#notes ul li p:nth-child(2){
+    float: right; 
+}
+.fa-pen-square{
+    color: #7C9F34;
+}
+.fa-times{
+    color: red;
+    padding-left: 2px;
+}
+#notes ul li #edit-note{
+    width: 68%;
+    height: 22px;
+    display: none;
+}
+#notes ul li #edit-note:focus{
+    outline: none;
+    border: solid 1px #7C9F34;
+}
+#hide-note{
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+#hide-note #hide{
+    border-bottom: solid 1px #777777;
+    width: 101px;
+    padding: 5px 5px;
+    margin-top: 70px;
+    text-align: center;
+}
+#hide-note #hide:hover{
+    background-color: rgba(230, 227, 227, 0.452);
+}
+#hide-note #hide label{
+    font-size: 17px;
+    color: #777777;
+}
+#hide-note #click-hide{
+    display: none;
+}
+#add-note{
+    text-align: center;
+    margin: 82px 0;
+}
+#add-note input{
+    height: 26px;
+    width: 254px;
+    border-style: none;
+    border: solid 1px #a5a3a3;
+    border-radius: 2px;
+    padding-left: 5px;
+}
+#add-note button{
+    color: #ffff;
+    background-color: rgb(98, 128, 40);
+    border:solid 1px #cacaca;
+    border-radius: 2px;
+    width: 71px;
+    height: 26px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Note Manager</title>
+</head>
+<body>
+    <div id="body">
+        <div id="header">
+            <h2>Note Manager</h2>
+            <input type="text" placeholder="Search note..." id="search-filter">
+        </div>
+        <div id="notes">
+            <ul>
+                <li>
+                    <p>First note</p>
+                    <p>
+                        <i class="fas fa-pen-square"></i>
+                        <i class="fa fa-times"></i>
+                    </p>
+                    <input type="text" id="edit-note">
+                </li>
+            </ul>
+        </div>
+        <div id ="hide-note">
+            <form id="hide"> 
+                <label for ="click-hide">Hide notes</label>
+                <input type ="checkbox" id = "click-hide">
+            </form>
+        </div>
+        <div id="add-note">
+            <form>
+                <input type="text" placeholder="Add a note..." id="add-input">
+                <button type="button" id="add">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
